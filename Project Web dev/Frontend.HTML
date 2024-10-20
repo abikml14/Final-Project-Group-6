@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Poverty - Edukasi dan Pengentasan Kemiskinan</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>No Poverty - Edukasi dan Pengentasan Kemiskinan</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Halaman Utama</a></li>
+                <li><a href="#calculator">Kalkulator Kebutuhan Dasar</a></li>
+                <li><a href="#donasi">Donasi Terintegrasi</a></li>
+                <li><a href="#saran-aksi">Saran Aksi Praktis</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Halaman Utama</h2>
+        <p>Kemiskinan merupakan salah satu masalah terbesar di dunia, dengan jutaan orang hidup di bawah garis kemiskinan setiap harinya.</p>
+        <p>Website ini memberikan informasi terkini tentang kemiskinan global, penyebab, dampak, dan kisah sukses inisiatif yang berhasil.</p>
+    </section>
+
+    <section id="calculator">
+        <h2>Kalkulator Kebutuhan Dasar</h2>
+        <form id="basic-needs-calculator">
+            <label for="makanan">Biaya Makanan per Bulan:</label>
+            <input type="number" id="makanan" name="makanan" required><br><br>
+
+            <label for="tempat-tinggal">Biaya Tempat Tinggal per Bulan:</label>
+            <input type="number" id="tempat-tinggal" name="tempat-tinggal" required><br><br>
+
+            <label for="pendidikan">Biaya Pendidikan per Bulan:</label>
+            <input type="number" id="pendidikan" name="pendidikan" required><br><br>
+
+            <label for="kesehatan">Biaya Kesehatan per Bulan:</label>
+            <input type="number" id="kesehatan" name="kesehatan" required><br><br>
+
+            <button type="button" onclick="calculateNeeds()">Hitung Kebutuhan Dasar</button>
+        </form>
+        <p id="result"></p>
+    </section>
+
+    <section id="donasi">
+        <h2>Donasi Terintegrasi</h2>
+        <p>Mari bergabung dalam upaya mengentaskan kemiskinan dengan berdonasi kepada organisasi yang bekerja di bidang ini.</p>
+        <button onclick="alert('Integrasi Donasi akan segera hadir!')">Donasi Sekarang</button>
+    </section>
+
+    <section id="saran-aksi">
+        <h2>Saran Aksi Praktis</h2>
+        <ul>
+            <li>Dukung usaha lokal dengan membeli produk dari pedagang kecil.</li>
+            <li>Donasikan barang-barang tidak terpakai yang masih layak pakai.</li>
+            <li>Menjadi relawan di organisasi yang fokus pada pengentasan kemiskinan.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Website Edukasi tentang Pengentasan Kemiskinan - No Poverty SDG</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
